@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "xclient",
+  "version": "${version}",
+  "name": "Zenith Client",
+  "description": "Zenith Client - singleplayer utility client.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.xclient.XClient"
+    ]
+  },
+  "mixins": [
+    "xclient.mixins.json",
+    "xclient-extra.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/xclient/icon.png"
+}

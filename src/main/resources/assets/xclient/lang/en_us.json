@@ -1,0 +1,9 @@
+{
+  "key.category.xclient.main": "Zenith Client",
+  "key.xclient.gui": "Open click GUI",
+  "key.xclient.esp": "Toggle ESP",
+  "key.xclient.xray": "Toggle X-Ray",
+  "key.xclient.reach": "Toggle Reach",
+  "key.xclient.hud": "Toggle HUD",
+  "key.xclient.fullbright": "Toggle Fullbright"
+}

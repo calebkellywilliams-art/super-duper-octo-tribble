@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.example.xclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MinecraftClientAccessor", "PlayerEntityMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
